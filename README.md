@@ -84,3 +84,4 @@ Check out [our documentation](https://docs.astro.build) or jump into our [Discor
 
 Licensed under the [GPL-3.0](https://github.com/JustGoodUI/ovidius-astro-theme/blob/main/LICENSE) license.
 # Periodico
+# Periodico
