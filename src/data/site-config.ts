@@ -40,14 +40,14 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     logo: {
-        src: '/logo.svg',
-        alt: 'Ovidius logo'
+        src: 'https://iesmartinezm.es/wp-content/uploads/2020/04/logo-mm-gsuite-tiny.png',
+        alt: 'ies martinez montañez'
     },
-    title: 'Ovidius',
-    description: 'Astro.js and Tailwind CSS theme for blogging by justgoodui.com',
+    title: 'Ies Martinez Montañez',
+    description: 'Periodico Ies martinez Montañez',
     image: {
-        src: '/ovidius-preview.jpg',
-        alt: 'Ovidius - Astro.js and Tailwind CSS theme'
+        src: 'https://iesmartinezm.es/wp-content/uploads/2020/04/logo-mm-gsuite-tiny.png',
+        alt: 'Periodico Ies martinez Montañez '
     },
     primaryNavLinks: [
         {
@@ -59,42 +59,19 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'About',
-            href: '/about'
-        },
-        {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Download Theme',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme'
         }
     ],
     secondaryNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Terms of Service',
-            href: '/terms'
-        },
+
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Download Theme',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme'
         }
     ],
     socialLinks: [
-        {
-            text: 'Go to GitHub repo',
-            href: 'https://github.com/JustGoodUI/ovidius-astro-theme',
-            icon: 'github'
-        },
+
         {
             text: 'Follow on Instagram',
             href: 'https://instagram.com/',
@@ -102,27 +79,21 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Follow on X',
-            href: 'https://twitter.com/justgoodui',
+            href: 'https://twitter.com/',
             icon: 'x-twitter'
         }
     ],
     hero: {
-        title: 'Hi there!',
-        text: "My name is Justin Case. I'm a freelance front-end developer, author and speaker based in Austin, TX. It's nice to meet you.",
+        title: 'Hola',
+        text: "esta es la web de el periodico del Ies Martinez Montañez.",
         avatar: {
-            src: '/avatar.jpg',
-            alt: 'Justin Case'
+            src: 'https://iesmartinezm.es/wp-content/uploads/2020/04/logo-mm-gsuite-tiny.png',
+            alt: 'Ies martinez Montañez'
         },
         backgroundImage: {
             src: '/hero.webp'
         }
-    },
-    subscribe: {
-        title: 'Subscribe to Ovidius Newsletter',
-        text: 'One update per week. All the latest news directly in your inbox.',
-        formUrl: 'https://justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117&amp;f_id=005c48e2f0'
-    },
-    postsPerPage: 5
+    }
 };
 
 export default siteConfig;
